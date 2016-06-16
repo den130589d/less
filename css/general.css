@@ -1,21 +1,29 @@
-.img-container {
+.text-center {
+  text-align: center;
+}
+.header {
+  background-color: #3e91c9;
+  color: #fff;
+  font-size: 18px;
+}
+.header ul li {
   display: inline-block;
   vertical-align: top;
-  width: 80px;
+  padding: 20px 30px;
 }
-.box {
-  width: 100px;
-  height: 100px;
+.header ul li:after {
+  content: '';
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
   display: inline-block;
   vertical-align: middle;
-  border: 1px solid black;
-  border-radius: 10px;
+  margin-left: 30px;
+  border-radius: 20px;
 }
-body {
-  background: black;
-  color: red;
-  font-size: 18px;
-}
-h1 {
-  font-size: 18px;
+.iconEmail {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100px;
+  bakground: url("../img/icons/Email.png") no-repeat center;
 }
